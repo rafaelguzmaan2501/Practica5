@@ -1,6 +1,6 @@
 import streamlit as st
 from MODULOS.login import login
-from MODULOS.VENTAS import mostrar_venta
+from MODULOS.ventas import mostrar_venta
 
 if "sesion_iniciada" not in st.session_state:
     st.session_state["sesion_iniciada"] = False
